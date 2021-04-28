@@ -25,7 +25,7 @@ public class HomeController {
     /*Index*/
     @RequestMapping("/")
     private String index(){
-        return "index.html";
+        return "index";
     }
 
     /*Signup*/
